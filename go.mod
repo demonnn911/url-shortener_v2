@@ -1,6 +1,6 @@
 module url-shortener
 
-go 1.23.0
+go 1.22.5
 
 require github.com/go-chi/render v1.0.3
 
