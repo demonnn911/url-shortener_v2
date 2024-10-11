@@ -32,6 +32,8 @@ func main() {
 	if err != nil {
 		log.Error("failed to init storage", sl.Err(err))
 		os.Exit(1)
+		a := 1
+		_ = a
 	}
 
 	_ = storage
